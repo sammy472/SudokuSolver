@@ -46,7 +46,6 @@ def sudokuSolver(grid):
                 return True
         grid[x][y] = 0
     return False
-
 class SudokuSolver:
     def __init__(self,grid):
         self.grid = grid
